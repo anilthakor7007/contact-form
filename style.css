@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.parent {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-image: url(/img/penciles\ icecream.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+div.heading {
+  color: whitesmoke;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.iconify {
+  height: 25px;
+  width: 25px;
+}
+.usericon {
+  position: absolute;
+  top: 13%;
+  left: 2%;
+}
+.emailicon {
+  position: absolute;
+  top: 13%;
+  left: 2%;
+}
+.phoneicon {
+  position: absolute;
+  top: 13%;
+  left: 2%;
+}
+div.name {
+  position: relative;
+}
+div.email {
+  position: relative;
+}
+div.phone {
+  position: relative;
+}
+input[type="text"],
+input[type="email"] {
+  border: none;
+  outline: none;
+  width: 25vw;
+  padding: 12px;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+input::placeholder {
+  font-family: "Mulish", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+textarea {
+  width: 25vw;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+textarea::placeholder {
+  font-family: "Mulish", sans-serif;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.6);
+}
+div.checkbox {
+  margin-top: 10px;
+  position: relative;
+}
+p.sendcopy {
+  font-size: 0.8rem;
+  color: whitesmoke;
+  font-family: "Mulish", sans-serif;
+  position: absolute;
+  left: 5%;
+}
+input[type="checkbox"] {
+  outline: none;
+  background-color: whitesmoke;
+  border: none;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 23px;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: whitesmoke;
+  background: rgb(198, 47, 114);
+  background: linear-gradient(
+    90deg,
+    rgba(198, 47, 114, 1) 30%,
+    rgba(212, 70, 61, 1) 77%
+  );
+}
+button:hover {
+  background: rgb(231, 18, 114);
+  background: linear-gradient(
+    90deg,
+    rgb(223, 26, 115) 33%,
+    rgb(230, 46, 33) 77%
+  );
+}
